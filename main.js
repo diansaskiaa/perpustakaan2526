@@ -15,13 +15,14 @@ import {
 
 // GANTI DENGAN FIREBASE CONFIG ANDA
 const firebaseConfig = {
-    apiKey: "AIzaSyAMYR89DaWshLi9Q3DzlOfd6-zERrlk-Dg",
-    authDomain: "ic2025-4d32e.firebaseapp.com",
-    projectId: "ic2025-4d32e",
-    storageBucket: "ic2025-4d32e.firebasestorage.app",
-    messagingSenderId: "614606671675",
-    appId: "1:614606671675:web:a92cc69855fb3d7568f11e"
-}
+  apiKey: "AIzaSyAFr3Y121FfaDUWJ9FXibB3LNiN6gYAl1I",
+  authDomain: "incer-3e941.firebaseapp.com",
+  projectId: "incer-3e941",
+  storageBucket: "incer-3e941.firebasestorage.app",
+  messagingSenderId: "575500379499",
+  appId: "1:575500379499:web:7cc7e87d7dbd02b722582e",
+  measurementId: "G-KJ759EE2CR"
+};
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore(app)
